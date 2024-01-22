@@ -1,0 +1,37 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.932);
+    color: white;
+    font-family: sans-serif;
+}
+
+.btn-box button {
+    background: transparent;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    padding: 20px;
+    margin: 0 10px 10px;
+    cursor: pointer;
+}
+
+.btn-box button:last-child {
+    margin-right: 0;
+}
+
+img {
+    height: 50px;
+}
+
+p {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.btn_reset {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 6px;
+}
